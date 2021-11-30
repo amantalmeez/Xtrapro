@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/pure-nr-min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="topLine"></div>
+    <div class="bodyDiv">
+
+        <div class="head-div"><table><tr><td><h4 class="extName"><font size="4">
+			Xtra Pro </font>VER 1.0</h4></td><td>
+            <div id="notActive"><span>You are using a Trial version limited to <b>40</b> emails.<br/><a id="" target="_blank" href="http://www.xtra.pro/buy" style="color: Blue; font-weight: bold">Click
+                Here </a> To Purchase your FULL version</span> or <a id="login" href="#" style="color: Blue; font-weight: bold">Login</a> <br>
+            </div>
+        </td><td><b><a class="helpLinck" target="_blank" href="http://www.xtra.pro/help/">
+			<font face="Comic Sans MS">HELP</font></a></b></td></tr></table> </div>
+        <form class="pure-form">
+        <div class="coll"> <div class="coll-95"><div class="lable-top"> Keywords List</div> <textarea wrap="off" class="texk" id="keywords"></textarea></div><div class="coll-wrap"></div>
+            <div class="coll-95"><div class="lable-top"> @ Patterns</div> <textarea wrap="off" class="texp" id="emails">@gmail.com</textarea></div>
+            <div class="coll-clear">
+                Delay b/w Queries 1..99 (sec) <input id="delay" type="number" max="99" size="2" style="width: 49px;" min="1" value="20"><br><br>
+                <input id="image" type="checkbox" checked> Images ON/OFF &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input id="dublicate" type="checkbox" checked> Remove Duplication
+            </div>
+        </div>
+            <div class="coll-wrap"></div>
+        <div class="coll"><div class="lable-top">Entity Types</div>
+            <input type="checkbox" id="tg"> All <br>
+            <input type="checkbox" name="tg[]" id="post" checked> Posts <br>
+            <input type="checkbox" name="tg[]" id="photo" > Photos <br>
+            <input type="checkbox" name="tg[]" id="video" > Videos <br>
+            <input type="checkbox" name="tg[]" id="share" checked> Shares <br></div>
+            <div class="coll-wrap"></div>
+        <div class="coll"><div class="lable-top">Time Ranges</div>
+                <input type="checkbox" id="dg" checked> All <br>
+                <input type="checkbox" name="dg[]" id="this-year" checked> This-Year <br>
+                <input type="checkbox" name="dg[]" id="last-year" checked> Last-Year <br>
+                <input type="checkbox" name="dg[]" id="this-month" checked> This-Month <br>
+                <input type="checkbox" name="dg[]" id="last-month" checked> Last-Month <br>
+                <input type="checkbox" name="dg[]" id="this-week" checked> This-Week <br>
+                <input type="checkbox" name="dg[]" id="last-week" checked> Last-Week <br></div>
+            <div class="coll-wrap"></div>
+        <div class="coll" style="max-width: 230px">
+            <br>
+            <input id="start" class="pure-button bnt" type="button" value="Start"><input id="stop" class="pure-button bnt" style="display: none" type="button" value="Stop">
+            <input id="download" class="pure-button bnt" type="button" value="Download">
+            <br><br>
+            <div class="info-couner-box">
+                <div class="info im">Collected: <span id="colected">0</span> emails</div>
+                <div class="info im">Progress: <span id="progress">0/0</span> queries</div>
+            </div>
+        </div>
+            <div style="height: 15px;clear: both "></div>
+            <hr style="margin: 2px;">
+            <div class="info-box">
+            <div class="info">Now running: <span id="nowrun">-</span></div>
+        </div>
+        </form>
+
+        <div class="scodeArea">
+            <div class="head-login">Please login below...</div>
+                <h2>Hi there.</h2>
+                <div style="text-align: left">Welcome to Xtra Pro. To get started enter your username and password below. If you forgot your username or password you may use forgot my login button below!
+                </div>
+                <div style="height: 0.6em"></div>
+                <div style="margin: 0 auto; width: 260px;">
+                <div style="width: 65px;float: left;">Username</div> <input class="pure-input pure-input-1-2" type="text" id="userName" placeholder="user name"><br>
+                <div style="width: 65px;float: left;">Password</div> <input class="pure-input pure-input-1-2" style="margin-top: 5px" type="password" id="password" placeholder="password"><br>
+                </div>
+                <div style="height: 0.6em"></div>
+                <div style="float: left">
+                    <a target="_blank" href="http://xtra.xtra.pro/wp-login.php?action=lostpassword">Click here to retrieve username or password</a><br>
+                    Forgot your username or password?<br><br>
+                </div>
+
+                <div style="float:right"><input  checked type="checkbox"   style="margin-top: 5px; display: inline-block"  id="remember">
+                <label for="remember">Remember credentials</label></div>
+
+
+                <div class="botom-login"><button id="active" class="">Login</button>
+                <button id="cancel" class="">Cancel</button></div>
+            </div>
+        <br>
+<!-- baner -->
+        
+        
+        <div style="overflow: hidden; width: 784px; height: 138px; position: relative;" id="i_div">
+			<iframe name="i_frame" src="http://xtra.pro/footer/" style="border: 0pt none ; left: 0px; top: 0px; position: absolute; width: 1920px; height: 895px;" scrolling="no" target="_blank"></iframe></div>
+        
+        
+<!-- end -->
+    </div>
+    <script type="text/javascript" src="kango-ui/kango_api.js"></script>
+    <script type="text/javascript" src="js/libs/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>

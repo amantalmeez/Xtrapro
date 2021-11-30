@@ -1,0 +1,24 @@
+{
+    "kango_version": "1.3.0 d6f8f2cf3761", 
+    "content_scripts": [
+        "js/script.js"
+    ], 
+    "browser_button": {
+        "icon": "icons/button.png", 
+        "popup": {
+            "url": "popup.html", 
+            "width": 276, 
+            "height": 331
+        }, 
+        "tooltipText": "XtraPro"
+    }, 
+    "creator": "",
+    "description": "XtraPro",
+    "kango_package_id": "dev", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "version": "2.0",
+    "id": "{E3446C97-A8A2-4681-B5CC-868C53F02276}",
+    "name": "XtraPro"
+}

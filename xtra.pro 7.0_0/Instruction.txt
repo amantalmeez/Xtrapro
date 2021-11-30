@@ -1,0 +1,9 @@
+1. Extract
+
+2. Go to chrome settings > extension and enable developer mode by tick box
+
+3. Click on "Load unpacked extension" and select plugin folder, done.
+
+4. When you close the chrome browser and restart the browser, chrome may try to disable this extension due it is not official extension but click cancel to enable.
+
+5. Enjoy.

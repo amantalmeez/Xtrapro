@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/button.png",
+      "default_popup": "popup.html",
+      "default_title": "Xtra Pro - Obtain Real Emails From FB !"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/content.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Xtra Pro - nulled @ blackhatsem.com",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6kescbDA9v5k6rEyxyjXe5lYUaOZI0NiZlvznpKOh+m9ijgoACbDnlRAtUBG9skQPqNTbS4sGEStTlpWx4LxGLDAgFn9Dqjd7NXhGjFoMqnXf9NkTw0B59hRPFgU1KdXn8Kad3mBAEP0oO5J+tL/LsyVuSoWGsbOobFf+zgplhBaazjzX8Iq2+wI+VLPobGlkBgfiuswsyL2FYU8w7fXqDZBKoAgvBt/pFs9wTiDwFNMLlkApLTftLfuOXw17F98k1eMbWXKb3awMkCk1pgt2MJadVweiRooC8oIGNTQUyTYShgba0e6CvGrU/ga40u5m2HMh5r0+QS8plbd2BjtLQIDAQAB",
+   "manifest_version": 2,
+   "name": "Xtra Pro - Obtain Real Emails From FB !",
+   "permissions": [ "tabs", "downloads", "contentSettings", "webNavigation", "notifications", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "7.0",
+   "web_accessible_resources": [ "res/*" ]
+}

@@ -1,0 +1,223 @@
+body {
+    background-color: #EDE9E3;
+	width: 800px;
+    /*height: 700px;*/
+    font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-size: 14px;
+}
+.bnt {
+    width: 113px;
+    height: 41px;
+    background-color: #DFDFDF;
+    font-weight: 600;
+    font-size: 16px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1a000000', endColorstr='#00000000', GradientType=0);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(transparent),color-stop(40%,rgba(0,0,0,.1)),to(rgba(0,0,0,.05)));
+    background-image: -webkit-linear-gradient(transparent,rgba(0,0,0,.1) 40%,rgba(0,0,0,.05));
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,.1) 0,rgba(0,0,0,.05));
+    background-image: -o-linear-gradient(transparent,rgba(0,0,0,.1) 40%,rgba(0,0,0,.05));
+    background-image: linear-gradient(transparent,rgba(0,0,0,.1) 40%,rgba(0,0,0,.05));
+}
+.info.im {
+    font-size: 15px;
+}
+#colected, #progress{
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+.lable-top {
+    padding-bottom: 7px;
+    font-size: 15px;
+}
+.head-div{
+    clear: both;
+    padding-bottom: 10px;
+}
+.head-div table {
+    width: 100%;
+}
+.coll {
+    float: left;
+}
+.coll-95 {
+    float: left;
+    height: 95px;
+}
+.coll-wrap{
+    float: left;
+    width: 20px;
+    min-height: 20px;
+}
+.coll-clear{
+    clear: both;
+    padding-top: 10px;
+}
+
+.texp{
+    width: 99px;
+    max-width: 99px;
+    height: 70px;
+}
+.texk{
+    width: 180px;
+    max-width: 180px;
+    height: 70px;
+}
+a.helpLinck {
+    float: right;
+}
+
+.pure-button {
+    border: 1px solid #bbb;
+}
+
+span#result {
+    color: green;
+    font-size: large;
+}
+
+.info-couner-box {
+    padding: 10px 10px 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(234, 234, 234);
+}
+
+h4.extName {
+    display: inline;
+}
+.bodyDiv {
+    padding: 4px 13px;
+    min-height: 290px;
+    border: 1px solid #999;
+}
+.button-red,a.button-red
+{background-color: #e75834;color:#fff}
+.backgroundDiv {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    padding-top: 8px;
+}
+.invisibleFile{
+    opacity: 0;
+    position: absolute;
+    filter: alpha(opacity:0);
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    top: 0;
+    bottom: 0;
+    left: -100px;
+    right: 0;
+    z-index: 1;
+
+}
+.fileGpoup {
+    position: relative;
+    height: 20px;
+    width: 200px;
+    overflow: hidden;
+}
+
+
+.topLine {
+    background-color: rgb(214, 215, 216);
+    height: 13px;
+    border: 1px solid #A1A1A1;
+}
+
+.btn {
+
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 6px -2px dodgerblue !important;
+}
+
+.btn:hover {
+    box-shadow: 0 0 6px -2px green;
+    cursor: pointer;
+}
+
+.uid, h4 {
+    font-weight: bold;
+    color: rgb(59, 89, 152);
+}
+
+#uidcount {
+    font-weight: normal;
+}
+
+/*button {*/
+    /*width: 100%;*/
+/*}*/
+#notActive {
+    margin: 0 15px 0 5px;
+    display: none;
+    color: red;
+    cursor: pointer;
+    text-align: center;
+	font-size: 12px;
+}
+#notActive>a{
+    text-decoration: underline;
+}
+
+#active, #cancel {
+    box-shadow: 0px 1px 2px #595959;
+}
+label {
+    margin-bottom: 20px;
+}
+iframe{
+    margin: 0 -12px -12px -14px;
+    border: 0;
+}
+.scodeArea {
+    top: 2%;
+    left: 133px;
+    position: absolute;
+    letter-spacing: normal;
+    background-color: #ffffff;
+    border: 1px solid #333;
+    box-shadow: 0 4px 4px gray;
+    padding: 0 10px 0 10px;
+    width: 445px;
+    display: none;
+    z-index: 20;
+}
+.botom-login {
+    background-color: #C2C2C2;
+    /* width: 100%; */
+    margin: 0 -10px;
+    padding: 5px 0px;
+    color: white;
+    clear: both;
+    text-align: center;
+}
+.scodeArea h2 {
+    margin: 8px 0 0 0;
+}
+.head-login {
+    background-color: #6C6C6C;
+    /* width: 100%; */
+    margin: 0 -10px;
+    padding: 4px 8px;
+    color: white;
+}
+#scode{
+    font-size: 12px;
+}
+
+.container {
+    height: 190px;
+}
